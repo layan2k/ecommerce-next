@@ -15,6 +15,9 @@ const config: Config = {
       colors: {
         accent: "#ff8f9C",
         blackish: "#1b1b1b"
+      },
+      borderRadius: {
+        circle: "50%"
       }
     },
   },
