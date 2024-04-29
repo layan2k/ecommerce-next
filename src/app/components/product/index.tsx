@@ -13,7 +13,7 @@ const NewProducts = () => {
                         return (
                             <ProductCard
                                 key={index}
-                                img={item.img}
+                                img={item.img.src}
                                 title={item.title}
                                 desc={item.desc}
                                 rating={item.rating}
