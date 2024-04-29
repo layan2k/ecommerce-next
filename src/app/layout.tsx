@@ -4,8 +4,6 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/footer";
 import MobileHeader from "./components/Header/MobileHeader";
-// import { Provider } from "react-redux";
-// import store from "./redux/store/store";
 
 const inter = Inter({ subsets: ["latin"] });
 
