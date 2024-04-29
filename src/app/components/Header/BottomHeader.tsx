@@ -1,11 +1,12 @@
+import Link from "next/link"
 
 const BottomHeader = () => {
     return (
         <div className="hidden lg:block">
             <div className="container">
                 <div className="flex w-fit gap-10 mx-auto font-medium py-4 text-blackish">
-                    <div className="navbar__link relative cursor-pointer">HOME</div>
-                    <div className="navbar__link relative cursor-pointer">CATEGORIES</div>
+                    <Link href="/" className="navbar__link relative cursor-pointer">HOME</Link>
+                    <Link href="/categories" className="navbar__link relative cursor-pointer">CATEGORIES</Link>
                     <div className="navbar__link relative cursor-pointer">{`MEN'S`}</div>
                     <div className="navbar__link relative cursor-pointer">{`WOMEN'S`}</div>
                     <div className="navbar__link relative cursor-pointer">JEWLERY</div>

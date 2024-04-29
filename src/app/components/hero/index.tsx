@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
     };
 
     return (
-        <div>
+        <main>
             <div className="container pt-6 lg:pt-0">
                 <Slider {...settings}>
                     {heroData.map((item) => {
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
                     })}
                 </Slider>
             </div>
-        </div>
+        </main>
     )
 }
 
